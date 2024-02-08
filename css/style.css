@@ -74,7 +74,7 @@ html {
     color: white;
     text-align: center;
     font-size: 1.4em;
-    padding-top: 16px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -97,7 +97,7 @@ html {
 
 #content-title {
     display: flex;
-    color: rgb(152, 149, 149);
+    color: #262626;
     margin: 40px 0;
     margin-right: auto;
     margin-left: auto;
@@ -121,7 +121,7 @@ html {
 
 .parag {
     white-space: pre-line;
-    font-size: 22px;
+    font-size: 20px;
     padding-right: 50px;
     padding-left: 50px;
     width: 23vw;
@@ -130,10 +130,10 @@ html {
  #footer {
     font-family: 'Apparat';
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
     color: white;
-    background-color: black;
+    background-color:#262626 ;
     padding: 10px 0;
  }
 
@@ -155,7 +155,7 @@ html {
 }
 
 .partner>a>img {
-    width: 100%;
+    width: 95%;
 }
 
 @media screen and (max-width: 900px) {
@@ -178,7 +178,7 @@ html {
         padding-bottom: 10px;
     }
 
-    .header-share-links>img {
+    .header-share-links>a>img {
         width: 6vw;
     }
 
